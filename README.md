@@ -5,60 +5,59 @@
     i - insert mode
     esc - go back to command mode
 
-## FASTER MOVEMENT --------------------------------------------------------------------------------------------------------------------
-w - jump from word to word
-W - move whole word
-b - go back to word
-B - back to whole word
-A - append at the end of line 
-$ - go to end of line
-^ - go to first non space char of line
-0 - go to very beginning of line
-gg - begining of file
-G - go to end of file
-} - jump to next paragraph
-{ - back to paragraph
-f* - will find the first occurance of * in the line
-F* - find backwords the * char
-t* - till the occurence of *
-T* - backward occurence of *
-8gg - 8th line
-8G - 8th line
-:8 - go to 8th line
-; - repeat the latest find
-, - find the latest on opposite direction
+## Faster Movement 
+    w - jump from word to word
+    W - move whole word
+    b - go back to word
+    B - back to whole word
+    A - append at the end of line 
+    $ - go to end of line
+    ^ - go to first non space char of line
+    0 - go to very beginning of line
+    gg - begining of file
+    G - go to end of file
+    } - jump to next paragraph
+    { - back to paragraph
+    f* - will find the first occurance of * in the line
+    F* - find backwords the * char
+    t* - till the occurence of *
+    T* - backward occurence of *
+    8gg - 8th line
+    8G - 8th line
+    :8 - go to 8th line
+    ; - repeat the last search
+    , - repeat last search on opposite direction
 
 
-Lesson :04  Basic editing---------------------------------------------------------------------------------------------------------------------------
-:e ~/.vimrc
-x - delete current character
-u - undo the previous change
-dw - delete the word
-db - delete the previous word
-5dw - delete 5 words
-cw - change the word
-dd - delete the current line
-cc - change the whole line
-dt" - delete inside quotes
-ct" - change the string inside the ""
-ci" - change inside "/{/[/' and so on
-ca" - change around "
-t - find a char in the current line
-T - find previous occurence of a character in the current line
+## Basic Editing
+    :e ~/.vimrc
+    x - delete current character
+    u - undo the previous change
+    dw - delete the word
+    db - delete the previous word
+    5dw - delete 5 words
+    cw - change the word
+    dd - delete the current line
+    cc - change the whole line
+    dt" - delete inside quotes
+    ct" - change the string inside the ""
+    ci" - change inside "/{/[/' and so on
+    ca" - change around "
 
 
-Lesson 05: Cut, Copy and Paste
-dw - delete the word
-p - paste from buffer
-P - paste from buffer starting from one column behind
-dj -delete current and immediate follwing line
-yw - copy the current word
-yy - copy the current line
-y0 - copy everything before the cursor to beginning of the line
-dh
-dl
-dk
-x - delete char under the cursor
+## Cut, Copy and Paste
+    dw - delete the word
+    p - paste from buffer
+    P - paste from buffer starting from one column behind
+    dj - delete current and immediate follwing line
+    yw - copy the current word
+    yy - copy the current line
+    y0 - copy everything before the cursor to beginning of the line
+    dh - delete  previous character  
+    dl - delete current char
+    dj - delete current line and next line
+    dk - delete current line and above line
+    x - delete char under the cursor
 
 
 Lesson 06: SEARCHING IN VIM  -----------------------------------------------------------------------------------------------------------------
