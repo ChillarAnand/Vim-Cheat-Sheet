@@ -1,11 +1,11 @@
-## Modes and Basic movement
+### Modes and Basic movement
     vim -  shows info about vim
     default mode is command mode
     j/k/h/l - navigation
     i - insert mode
     esc - go back to command mode
 
-## Faster Movement 
+### Faster Movement 
     w - jump from word to word
     W - move whole word
     b - go back to word
@@ -29,7 +29,7 @@
     , - repeat last search on opposite direction
 
 
-## Basic Editing
+### Basic Editing
     :e ~/.vimrc
     x - delete current character
     u - undo the previous change
@@ -45,7 +45,7 @@
     ca" - change around "
 
 
-## Cut, Copy and Paste
+### Cut, Copy and Paste
     dw - delete the word
     p - paste from buffer
     P - paste from buffer starting from one column behind
@@ -60,7 +60,7 @@
     x - delete char under the cursor
 
 
-## Searching
+### Searching
     /text - search for text {case sensitive}
     n - go to next search result
     N - back back to previous search result
@@ -75,7 +75,7 @@
     /.[gain] - finds *gain
     /\n\n - finds all empty lines in the file
 
-## Replace
+### Replace
     :s/find/replace - substitute a word for another
     :%s/find/replace - repeat the above for entire file
     :%/find/replace/g - substitute globally ( all occurances in the file )
@@ -90,13 +90,13 @@
     /),
     /)\ze,
 
-## Macros and registers
+### Macros and registers
     :registers
     qa - to record a macro
     @a -execute a macro
     ctrl + g - inforamtion about current file
 
-## Advanced Movements
+### Advanced Movements
     ctrl + d - move half wat down in the current screen
     crtl + u - move half up in current screenct
     ctrl + f - full screen down
@@ -114,13 +114,13 @@
     ' followed by register to go to mark
     '' - go to visited places
 
-## Invoking the command line directly from vim
+### Invoking the command line directly from vim
     :! - can use commands
     :read !command - brings command result into the file
     :r  !curl --silent url - brings url to file
     :se ft=javascript
 
-## Buffers
+### Buffers
     :bn - navigate to the next buffer
     :bp - previous buffer in the list
     :b# - navigate to previous buffer
@@ -130,7 +130,7 @@
     :bd - delete current buffer
     :bd12 - delete 12 buffer
 
-## Windows and tabs
+### Windows and tabs
     :e url - edit a file
     :vsplit url - vertical split the screen
     ctrl + w + hjkl - switch between files in a screen
@@ -144,7 +144,7 @@
     gT - go to previous tab
     :gf - go to first tab
 
-## Indents and folds
+### Indents and folds
     >> - indentation of tab
     :set list - 
     :set expandtab
@@ -174,7 +174,7 @@
     :se fmd = marker 
     :set foldmarker = {{{,}}}
 
-## Vimrc file
+### Vimrc file
     set nocompatible
     filetype on
     filetype indent on
@@ -191,7 +191,7 @@
     set cursorline
 
 
-## Others
+### Others
     :newtab - open a new tab
 
 
