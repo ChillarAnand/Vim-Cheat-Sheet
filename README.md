@@ -5,6 +5,7 @@
     i - insert mode
     esc - go back to command mode
 
+
 ### Faster Movement 
     w - jump from word to word
     W - move whole word
